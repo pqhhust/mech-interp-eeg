@@ -1,0 +1,28 @@
+# ── Core ──
+torch>=2.2.0
+transformers>=4.30.0
+einops>=0.7.0
+jaxtyping>=0.2.0
+transformer_lens>=1.0.0
+sae_lens>=0.5.0
+geom_median
+tqdm
+numpy
+scipy
+
+# ── Data ──
+lmdb
+scikit-learn
+
+# ── Logging ──
+wandb
+
+# ── Analysis & Visualization ──
+matplotlib
+plotly
+pandas
+kaleido          # plotly static image export
+
+# ── Web Demo ──
+gradio>=4.0.0
+tabulate         # pandas .to_markdown()
